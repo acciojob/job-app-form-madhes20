@@ -8,28 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	 <form>
-            <h3>Name</h3>
+	 <form name="myForm">
+            <label class="label">Name</label>
             <input type="text" id="name" class="input" required />
-            <h3>Email</h3>
+            <label class="label">Email</label>
             <input type="email" id="email" class="input" required />
-            <h3>Gender</h3>
+            <label class="label">Gender</label>
             <input type="radio" checked="checked" name="gender" required/> Male
             <input type="radio" checked="checked" name="gender" required/> Female
 
-            <h3>Laptop Brand</h3>
+            <label class="label">Laptop Brand</label>
             <select id="laptop" name="laptop">
                 <option value="Apple">Apple</option>
                 <option value="Asus">Asus</option>
                 <option value="HP">HP</option>
               </select>
 
-            <h3>Age</h3>
+            <label class="label">Age</label>
             <input type="text" id="age" class="input" required />
-            <h3>Date Of Birth</h3>
+
+            <label class="label">DOB</label>
             <input type="date" id="dob"  required />
-            <h3>Password</h3>
-            <input type="password" id="password" class="input" required /><br/><br/>
+            <label class="label">Password</label>
+            <input type="password" id="password" class="input" required />
             <button type="submit" class="button">Submit</button>
         </form>
     <script type="text/javascript" src="./script.js">
